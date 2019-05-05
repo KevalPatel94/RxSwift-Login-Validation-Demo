@@ -30,7 +30,9 @@ class ViewController: UIViewController {
         
     }
     @IBAction func selBtnSignIn(_ sender: Any) {
-        print("Clicked")
+        if let destVC = self.storyboard?.instantiateViewController(withIdentifier: "TableVC") as? TableVC{
+            self.navigationController?.pushViewController(destVC, animated: true)
+        }
     }
     
 }

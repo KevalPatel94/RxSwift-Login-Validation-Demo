@@ -13,6 +13,8 @@
 		8D52B34E227E7987009E1F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D52B34D227E7987009E1F91 /* Assets.xcassets */; };
 		8D52B351227E7987009E1F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D52B34F227E7987009E1F91 /* LaunchScreen.storyboard */; };
 		8D52B359227E79A6009E1F91 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D52B358227E79A6009E1F91 /* LogInViewModel.swift */; };
+		8D52B35B227F5890009E1F91 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D52B35A227F5890009E1F91 /* TableVC.swift */; };
+		8D52B35D227F594F009E1F91 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D52B35C227F594F009E1F91 /* TableCell.swift */; };
 		A50C8CEA28F2400E312943E3 /* Pods_Rx_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2042CC4EDF00290A8F01F2AF /* Pods_Rx_Login.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		8D52B350227E7987009E1F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D52B352227E7987009E1F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D52B358227E79A6009E1F91 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		8D52B35A227F5890009E1F91 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		8D52B35C227F594F009E1F91 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		EFF4BB482D8D6CE5E7E9CDFA /* Pods-Rx_Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx_Login.release.xcconfig"; path = "Target Support Files/Pods-Rx_Login/Pods-Rx_Login.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +52,6 @@
 				3CD49F2ED63FD8A954DD3FE5 /* Pods-Rx_Login.debug.xcconfig */,
 				EFF4BB482D8D6CE5E7E9CDFA /* Pods-Rx_Login.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +86,8 @@
 			children = (
 				8D52B346227E7982009E1F91 /* AppDelegate.swift */,
 				8D52B358227E79A6009E1F91 /* LogInViewModel.swift */,
+				8D52B35C227F594F009E1F91 /* TableCell.swift */,
+				8D52B35A227F5890009E1F91 /* TableVC.swift */,
 				8D52B348227E7982009E1F91 /* ViewController.swift */,
 				8D52B34A227E7982009E1F91 /* Main.storyboard */,
 				8D52B34D227E7987009E1F91 /* Assets.xcassets */,
@@ -216,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D52B35D227F594F009E1F91 /* TableCell.swift in Sources */,
 				8D52B349227E7982009E1F91 /* ViewController.swift in Sources */,
+				8D52B35B227F5890009E1F91 /* TableVC.swift in Sources */,
 				8D52B359227E79A6009E1F91 /* LogInViewModel.swift in Sources */,
 				8D52B347227E7982009E1F91 /* AppDelegate.swift in Sources */,
 			);
