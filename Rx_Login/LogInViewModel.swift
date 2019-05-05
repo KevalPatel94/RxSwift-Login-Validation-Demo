@@ -14,7 +14,7 @@ class LogInViewModel{
     var passwordText = BehaviorRelay<String>(value: "")
     var isValid : Observable<Bool> {
         return Observable.combineLatest(emailText.asObservable(), passwordText.asObservable(), resultSelector: { email, password in
-            self.emailText.value.count >= 0 && self.passwordText.value.count >= 0
+            self.emailText.value.count >= 3 && self.passwordText.value.count >= 3
         })
         
     }
